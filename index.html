@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API NASA</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Radio+Canada:wght@300&family=Satisfy&display=swap"
+        rel="stylesheet"> -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pesquisa de imagens da NASA</h1>
+    </header>
+    <p>Digite uma data</p>
+    <input type="date" name="data" id="data" placeholder="digite aqui uma data" min="1995/06/01"> <br>
+    <h2 id="tituloRequisicao"> </h2>
+    <img src="" id="imagem">
+    <iframe src=""  id="video" class="esconde"></iframe>
+        <div class="explicacao">
+            <p id="explicacao"> </p>
+        </div>
+        <button onclick="inicio()">Pesquisar</button>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>
+        <script src="jquery-ui.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>

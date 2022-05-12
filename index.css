@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0; 
+}
+
+header{
+    font-family: 'Fredoka One', cursive;
+    background-color: rgb(30, 30, 196);
+    color: white;
+    font-size: 5vh;
+}
+
+body {
+    text-align: center;
+    background-image: url(./imagem\ nasa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+button {
+    margin: 5vh;
+}
+
+p{
+    color: aliceblue;
+    margin:5vh;
+    font-size: 5vh;
+}
+
+input{
+    width: 25vh;
+    height: 3vh;
+    border-radius: 1vh;
+}
+
+button{
+    background-color: skyblue;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 2vh;
+    font-size: 3vh;
+}
+
+button:hover{
+    background-color: white;
+}
