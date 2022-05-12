@@ -6,29 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API NASA</title>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <!-- <link
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
         href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Radio+Canada:wght@300&family=Satisfy&display=swap"
-        rel="stylesheet"> -->
+        rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
     <header>
         <h1>Pesquisa de imagens da NASA</h1>
     </header>
+    <div>
     <p>Digite uma data</p>
-    <input type="date" name="data" id="data" placeholder="digite aqui uma data" min="1995/06/01"> <br>
+    <input type="date" name="data" id="data" placeholder="digite aqui uma data" min="1995/06/01">
+</div>
+    <button onclick="inicio()">Pesquisar</button>
     <h2 id="tituloRequisicao"> </h2>
     <img src="" id="imagem">
     <iframe src=""  id="video" class="esconde"></iframe>
-        <div class="explicacao">
             <p id="explicacao"> </p>
-        </div>
-        <button onclick="inicio()">Pesquisar</button>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>
+            <footer class="footer">
+                <a href="https://github.com/willcrvlh" target="_blank"><img src="github.png" alt="" id="hub"></a>
+                <p id="fim">Todos os direitos reservados 2022 © Resilia educação <br> Projeto para fins edicacionais <br> Projeto elaborado por Willian Carvalho</p>
+                <a href="https://www.linkedin.com/in/willian-carvalho-631616230/"><img src="linkedin png.png" alt="" id="linkedin"></a>
+            </footer>
         <script src="jquery-ui.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="index.js"></script>

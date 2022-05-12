@@ -1,0 +1,106 @@
+/*laptop*/
+@media(max-width:2560px) {
+    body {
+        background-size: 120%;
+    }
+    #tituloRequisicao{
+        font-size: 5vh;
+        color: white;
+        margin: 1vh;
+    }
+    p{
+        margin: 0;
+    }
+}
+
+/*tablet*/
+@media(max-width:768px) {
+    header {
+        font-size: 2vh;
+        background-color: rgb(206, 81, 206);
+    }
+    body {
+        background-size: 140%;
+    }
+    #tituloRequisicao{
+        font-size: 4vh;
+        margin: 1vh;
+    }
+    #explicacao{
+        font-size: 2.5vh;
+    }
+}
+
+/*mobile L*/
+@media(max-width:425px){
+    h1{
+        display:none; 
+    }
+    p{
+        font-size: 4vh;
+     }
+     #data{
+         width:25vh;
+         height:2vh;
+     }
+     button{
+         width:15vh;
+         height:3vh;
+     }
+     #tituloRequisicao{
+        font-size: 3vh;
+        margin: 1vh;
+    }
+    #imagem{
+        width: 40vh;
+        height: 30vh;
+    }
+    #explicacao{
+        font-size: 2vh;
+        width: 50vh;
+        text-align: center;
+        margin-left:19%;
+        margin-top: 3vh;
+    }
+    body {
+        background-size: 250%;
+    }
+    footer {
+        height:10vh;
+        margin-top:6vh;
+    }
+    #hub{
+        width:10vh;
+        height:5vh;
+        margin-right: 2vh;
+    }
+    #linkedin{
+        width:10vh;
+        height:5vh;
+        margin-left:2vh;
+    }
+    #fim{
+        font-size:2vh;
+    }
+}
+/*mobile M*/
+@media(max-width:375px){
+    #explicacao{
+        margin-left:14%;
+}
+}
+
+/*mobile S*/
+@media (max-width:320px) {
+    #explicacao{
+        margin-left:8%;
+    }
+    body{
+        background-size: 320%;
+    }
+}
+@media(min-width:426px) {
+    body{
+        background-size: 300%;
+    }
+}

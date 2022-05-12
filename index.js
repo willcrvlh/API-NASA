@@ -26,7 +26,7 @@ function inserirDados(dado) {
     }else{
         $('#video').show();
         video.attr('src',urlMidia)
-         $('#imagem').show();
+         $('#imagem').hide();
     }
     console.log(dado);
 }
